@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Temperature Plasmoid
+Comment=Show temperature
+Encoding=UTF-8
+Icon=applications-rss
+ServiceTypes=Plasma/Applet
+Type=Service
+X-KDE-PluginInfo-Author=Raphael Cazenave-Leveque
+X-KDE-PluginInfo-Email=raphael.cazenave@gmail.com
+X-KDE-PluginInfo-Name=org.example.temperatureplasmoid
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
