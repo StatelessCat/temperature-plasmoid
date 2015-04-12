@@ -7,10 +7,11 @@ import org.kde.plasma.extras 2.0 as PlasmaExtras
 Item {
     Plasmoid.preferredRepresentation: Plasmoid.fullRepresentation
 
-    Text {
+    PlasmaExtras.Paragraph {
+        anchors.left: parent.left
+        anchors.right: parent.right
         id: log;
-        anchors.fill: parent;
-        anchors.margins: 10
+        text: ""
     }
 
     // update the view
